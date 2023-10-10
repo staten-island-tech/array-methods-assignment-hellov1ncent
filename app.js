@@ -25,6 +25,4 @@ const students = [
 
 console.log(students[students.firstName]);
 //foreach to run function on every item (for loop)
-students.forEach((students)=> console.log(students.firstName))
-const graduates = students.filter((students)=> students.graduated)
-console.log
+students.forEach((students)=> console.log(students.firstName, students.lastname))
