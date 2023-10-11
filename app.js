@@ -26,3 +26,5 @@ const students = [
 console.log(students[students.firstName]);
 //foreach to run function on every item (for loop)
 students.forEach((students)=> console.log(students.firstName, students.lastname))
+students.forEach((students)=> console.log(students.graduated))
+students.forEach((students)=> console.log(students.DOB))
