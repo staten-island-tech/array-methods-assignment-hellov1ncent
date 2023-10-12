@@ -9,8 +9,8 @@ const students = [
     {
         firstName: "Hao",
         lastname: "Ming",
-        graduated: false,
-        DOB: 2008,
+        graduated: true,
+        DOB: 2000,
         siblings: ["Benson","Max"],
     },
     {
@@ -28,3 +28,6 @@ console.log(students[students.firstName]);
 students.forEach((students)=> console.log(students.firstName, students.lastname))
 students.forEach((students)=> console.log(students.graduated))
 students.forEach((students)=> console.log(students.DOB))
+const siblings = students.forEach((students) => students.siblings.forEach((siblings) =>console.log(siblings)));
+const graduated = students.filter((students)=> students.graduated === true);
+console.log(graduated)
